@@ -33,10 +33,11 @@ C:\_KOD_\Admin_Panel\Admin_Panel\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\_KOD_\Admin_Panel\Admin_Panel\bin\Debug\System.ValueTuple.xml
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.csproj.AssemblyReference.cache
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.csproj.SuggestedBindingRedirects.cache
-C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.Form1.resources
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.Properties.Resources.resources
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.csproj.GenerateResource.cache
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.csproj.CoreCompileInputs.cache
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.csproj.CopyComplete
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.exe
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.pdb
+C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.MainForm.resources
+C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.AddForm.resources

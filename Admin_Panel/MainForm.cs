@@ -4,9 +4,9 @@ using System.Windows.Forms;
 
 namespace Admin_Panel
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             Display_DB();
@@ -33,7 +33,7 @@ namespace Admin_Panel
             listView1.Columns.Add("Ссылка", 100);
             listView1.Columns.Add("Ссылка", 100);
             listView1.Columns.Add("Редактировать", 100);
-            listView1.Columns.Add("Удалить", 80);
+            listView1.Columns.Add("Удалить", 74);
 
             string sql = "Select id, name, image, link, link2, link3, link4, link5 from kino.kino";//запрос на вывод данных
             NpgsqlConnection connection = CONNECTION_STRING();
@@ -57,5 +57,37 @@ namespace Admin_Panel
             connection.Close();
         }
 
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+             MessageBox.Show(
+              "Выберите один из вариантов", 
+              "Сообщение", 
+              MessageBoxButtons.OK, 
+              MessageBoxIcon.Information, 
+              MessageBoxDefaultButton.Button1, 
+              MessageBoxOptions.DefaultDesktopOnly);
+        }
+
+        private void buttonRefresh_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+             "Выберите один из вариантов",
+             "Сообщение",
+             MessageBoxButtons.OK,
+             MessageBoxIcon.Information,
+             MessageBoxDefaultButton.Button1,
+             MessageBoxOptions.DefaultDesktopOnly);
+        }
+
+        private void buttonUserChange_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+             "Выберите один из вариантов",
+             "Сообщение",
+             MessageBoxButtons.OK,
+             MessageBoxIcon.Information,
+             MessageBoxDefaultButton.Button1,
+             MessageBoxOptions.DefaultDesktopOnly);
+        }
     }
 }
