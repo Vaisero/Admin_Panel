@@ -4,10 +4,10 @@ using System.Windows.Forms;
 
 namespace Admin_Panel
 {
-    public partial class BD_Table : FormMain
+    internal class DB_Table
     {
-        public static void BD_TableShow(ListView listView1)//отображение списка на главной форме
-        {          
+        public static void DB_TableInitialize(ListView listView1)
+        {
             listView1.GridLines = true;
             listView1.View = View.Details;
 
@@ -23,8 +23,14 @@ namespace Admin_Panel
             listView1.Columns.Add("Редактировать", 100);
             listView1.Columns.Add("Удалить", 74);
 
+            DB_TableShow(listView1);
+
+        }
+
+        public static void DB_TableShow(ListView listView1)//отображение списка на главной форме
+        {
             string sql = "Select id, name, image, link, link2, link3, link4, link5 from kino.kino";//запрос на вывод данных
-            NpgsqlConnection connection = CONNECTION_STRING();
+            NpgsqlConnection connection = FormMain.CONNECTION_STRING();
             connection.Open();
             NpgsqlCommand cmd = new NpgsqlCommand(sql, connection);
             var Reader = cmd.ExecuteReader();

@@ -9,7 +9,7 @@ namespace Admin_Panel
         public FormMain()
         {
             InitializeComponent();
-            BD_Table.BD_TableShow(listView1);
+            DB_Table.DB_TableInitialize(listView1);
         }
 
         public static NpgsqlConnection CONNECTION_STRING()
@@ -22,22 +22,18 @@ namespace Admin_Panel
         {
             var AddForm = new FormAdd();
             AddForm.ShowDialog();
+            DB_Table.DB_TableShow(listView1);
         }
 
         private void buttonRefresh_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(
-             "Выберите один из вариантов",
-             "Сообщение",
-             MessageBoxButtons.OK,
-             MessageBoxIcon.Information,
-             MessageBoxDefaultButton.Button1);
+            DB_Table.DB_TableShow(listView1);
         }
 
         private void buttonUserChange_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
-             "Выберите один из вариантов",
+             "В разработке",
              "Сообщение",
              MessageBoxButtons.OK,
              MessageBoxIcon.Information,
