@@ -1,6 +1,6 @@
 ﻿namespace Admin_Panel
 {
-    partial class MainForm
+    partial class FormMain
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.listView1 = new System.Windows.Forms.ListView();
             this.buttonUserChange = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();

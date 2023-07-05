@@ -1,6 +1,6 @@
 ﻿namespace Admin_Panel
 {
-    partial class AddForm
+    partial class FormAdd
     {
         /// <summary>
         /// Required designer variable.
@@ -36,8 +36,8 @@
             System.Windows.Forms.Label label6;
             System.Windows.Forms.Label label7;
             System.Windows.Forms.Label label8;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddForm));
-            this.Submit = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAdd));
+            this.Save = new System.Windows.Forms.Button();
             this.Cancel = new System.Windows.Forms.Button();
             this.textBoxNumber = new System.Windows.Forms.TextBox();
             this.textBoxName = new System.Windows.Forms.TextBox();
@@ -56,116 +56,6 @@
             label7 = new System.Windows.Forms.Label();
             label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // Submit
-            // 
-            this.Submit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Submit.BackColor = System.Drawing.Color.Lime;
-            this.Submit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Submit.Location = new System.Drawing.Point(170, 354);
-            this.Submit.Name = "Submit";
-            this.Submit.Size = new System.Drawing.Size(117, 49);
-            this.Submit.TabIndex = 0;
-            this.Submit.Text = "Submit";
-            this.Submit.UseVisualStyleBackColor = false;
-            this.Submit.Click += new System.EventHandler(this.Submit_Click);
-            // 
-            // Cancel
-            // 
-            this.Cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Cancel.BackColor = System.Drawing.Color.Red;
-            this.Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Cancel.Location = new System.Drawing.Point(293, 354);
-            this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(117, 49);
-            this.Cancel.TabIndex = 1;
-            this.Cancel.Text = "Cancel";
-            this.Cancel.UseVisualStyleBackColor = false;
-            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
-            // 
-            // textBoxNumber
-            // 
-            this.textBoxNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxNumber.Location = new System.Drawing.Point(113, 38);
-            this.textBoxNumber.Name = "textBoxNumber";
-            this.textBoxNumber.Size = new System.Drawing.Size(363, 20);
-            this.textBoxNumber.TabIndex = 2;
-            // 
-            // textBoxName
-            // 
-            this.textBoxName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxName.Location = new System.Drawing.Point(113, 77);
-            this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(363, 20);
-            this.textBoxName.TabIndex = 3;
-            // 
-            // textBoxImage
-            // 
-            this.textBoxImage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxImage.Location = new System.Drawing.Point(113, 115);
-            this.textBoxImage.Name = "textBoxImage";
-            this.textBoxImage.Size = new System.Drawing.Size(363, 20);
-            this.textBoxImage.TabIndex = 4;
-            // 
-            // textBoxKinoLink
-            // 
-            this.textBoxKinoLink.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxKinoLink.Location = new System.Drawing.Point(113, 154);
-            this.textBoxKinoLink.Name = "textBoxKinoLink";
-            this.textBoxKinoLink.Size = new System.Drawing.Size(363, 20);
-            this.textBoxKinoLink.TabIndex = 5;
-            // 
-            // textBoxLink1
-            // 
-            this.textBoxLink1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxLink1.Location = new System.Drawing.Point(113, 193);
-            this.textBoxLink1.Name = "textBoxLink1";
-            this.textBoxLink1.Size = new System.Drawing.Size(363, 20);
-            this.textBoxLink1.TabIndex = 6;
-            // 
-            // textBoxLink2
-            // 
-            this.textBoxLink2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxLink2.Location = new System.Drawing.Point(113, 232);
-            this.textBoxLink2.Name = "textBoxLink2";
-            this.textBoxLink2.Size = new System.Drawing.Size(363, 20);
-            this.textBoxLink2.TabIndex = 7;
-            // 
-            // textBoxLink3
-            // 
-            this.textBoxLink3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxLink3.Location = new System.Drawing.Point(113, 271);
-            this.textBoxLink3.Name = "textBoxLink3";
-            this.textBoxLink3.Size = new System.Drawing.Size(363, 20);
-            this.textBoxLink3.TabIndex = 8;
-            // 
-            // textBoxLink4
-            // 
-            this.textBoxLink4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxLink4.Location = new System.Drawing.Point(113, 310);
-            this.textBoxLink4.Name = "textBoxLink4";
-            this.textBoxLink4.Size = new System.Drawing.Size(363, 20);
-            this.textBoxLink4.TabIndex = 9;
             // 
             // lable1
             // 
@@ -263,12 +153,123 @@
             label8.TabIndex = 17;
             label8.Text = "Ссылка";
             // 
+            // Save
+            // 
+            this.Save.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Save.BackColor = System.Drawing.Color.Lime;
+            this.Save.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.Save.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Save.Location = new System.Drawing.Point(170, 354);
+            this.Save.Name = "Save";
+            this.Save.Size = new System.Drawing.Size(117, 49);
+            this.Save.TabIndex = 0;
+            this.Save.Text = "Сохранить";
+            this.Save.UseVisualStyleBackColor = false;
+            this.Save.Click += new System.EventHandler(this.Save_Click);
+            // 
+            // Cancel
+            // 
+            this.Cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Cancel.BackColor = System.Drawing.Color.Red;
+            this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Cancel.Location = new System.Drawing.Point(293, 354);
+            this.Cancel.Name = "Cancel";
+            this.Cancel.Size = new System.Drawing.Size(117, 49);
+            this.Cancel.TabIndex = 1;
+            this.Cancel.Text = "Отмена";
+            this.Cancel.UseVisualStyleBackColor = false;
+            // 
+            // textBoxNumber
+            // 
+            this.textBoxNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxNumber.Location = new System.Drawing.Point(113, 38);
+            this.textBoxNumber.Name = "textBoxNumber";
+            this.textBoxNumber.Size = new System.Drawing.Size(363, 20);
+            this.textBoxNumber.TabIndex = 2;
+            // 
+            // textBoxName
+            // 
+            this.textBoxName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxName.Location = new System.Drawing.Point(113, 77);
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.Size = new System.Drawing.Size(363, 20);
+            this.textBoxName.TabIndex = 3;
+            // 
+            // textBoxImage
+            // 
+            this.textBoxImage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxImage.Location = new System.Drawing.Point(113, 115);
+            this.textBoxImage.Name = "textBoxImage";
+            this.textBoxImage.Size = new System.Drawing.Size(363, 20);
+            this.textBoxImage.TabIndex = 4;
+            // 
+            // textBoxKinoLink
+            // 
+            this.textBoxKinoLink.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxKinoLink.Location = new System.Drawing.Point(113, 154);
+            this.textBoxKinoLink.Name = "textBoxKinoLink";
+            this.textBoxKinoLink.Size = new System.Drawing.Size(363, 20);
+            this.textBoxKinoLink.TabIndex = 5;
+            // 
+            // textBoxLink1
+            // 
+            this.textBoxLink1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxLink1.Location = new System.Drawing.Point(113, 193);
+            this.textBoxLink1.Name = "textBoxLink1";
+            this.textBoxLink1.Size = new System.Drawing.Size(363, 20);
+            this.textBoxLink1.TabIndex = 6;
+            // 
+            // textBoxLink2
+            // 
+            this.textBoxLink2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxLink2.Location = new System.Drawing.Point(113, 232);
+            this.textBoxLink2.Name = "textBoxLink2";
+            this.textBoxLink2.Size = new System.Drawing.Size(363, 20);
+            this.textBoxLink2.TabIndex = 7;
+            // 
+            // textBoxLink3
+            // 
+            this.textBoxLink3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxLink3.Location = new System.Drawing.Point(113, 271);
+            this.textBoxLink3.Name = "textBoxLink3";
+            this.textBoxLink3.Size = new System.Drawing.Size(363, 20);
+            this.textBoxLink3.TabIndex = 8;
+            // 
+            // textBoxLink4
+            // 
+            this.textBoxLink4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxLink4.Location = new System.Drawing.Point(113, 310);
+            this.textBoxLink4.Name = "textBoxLink4";
+            this.textBoxLink4.Size = new System.Drawing.Size(363, 20);
+            this.textBoxLink4.TabIndex = 9;
+            // 
             // AddForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(572, 429);
+            this.ClientSize = new System.Drawing.Size(556, 413);
             this.ControlBox = false;
             this.Controls.Add(label8);
             this.Controls.Add(label7);
@@ -287,7 +288,7 @@
             this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.textBoxNumber);
             this.Controls.Add(this.Cancel);
-            this.Controls.Add(this.Submit);
+            this.Controls.Add(this.Save);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -304,7 +305,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button Submit;
+        private System.Windows.Forms.Button Save;
         private System.Windows.Forms.Button Cancel;
         private System.Windows.Forms.TextBox textBoxNumber;
         private System.Windows.Forms.TextBox textBoxName;

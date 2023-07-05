@@ -4,22 +4,10 @@ using System.Windows.Forms;
 
 namespace Admin_Panel
 {
-    public partial class MainForm : Form
+    public partial class BD_Table : FormMain
     {
-        public MainForm()
-        {
-            InitializeComponent();
-            Display_DB();
-        }
-
-        public static NpgsqlConnection CONNECTION_STRING()
-        {
-            return new NpgsqlConnection(@"Server=localhost;Port=5432;User Id=devUser;Password=1234;Database=Kino;");
-            // в БД создан пользователь для удалённого подключения и администрирования
-        }
-
-        public void Display_DB()//отображение списка на главной форме
-        {
+        public static void BD_TableShow(ListView listView1)//отображение списка на главной форме
+        {          
             listView1.GridLines = true;
             listView1.View = View.Details;
 
@@ -55,39 +43,6 @@ namespace Admin_Panel
             }
             Reader.Close();
             connection.Close();
-        }
-
-        private void buttonAdd_Click(object sender, EventArgs e)
-        {
-             MessageBox.Show(
-              "Выберите один из вариантов", 
-              "Сообщение", 
-              MessageBoxButtons.OK, 
-              MessageBoxIcon.Information, 
-              MessageBoxDefaultButton.Button1, 
-              MessageBoxOptions.DefaultDesktopOnly);
-        }
-
-        private void buttonRefresh_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(
-             "Выберите один из вариантов",
-             "Сообщение",
-             MessageBoxButtons.OK,
-             MessageBoxIcon.Information,
-             MessageBoxDefaultButton.Button1,
-             MessageBoxOptions.DefaultDesktopOnly);
-        }
-
-        private void buttonUserChange_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(
-             "Выберите один из вариантов",
-             "Сообщение",
-             MessageBoxButtons.OK,
-             MessageBoxIcon.Information,
-             MessageBoxDefaultButton.Button1,
-             MessageBoxOptions.DefaultDesktopOnly);
         }
     }
 }

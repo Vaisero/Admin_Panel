@@ -39,5 +39,5 @@ C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.csproj.CoreCompileInputs.
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.csproj.CopyComplete
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.exe
 C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.pdb
-C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.MainForm.resources
-C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.AddForm.resources
+C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.FormAdd.resources
+C:\_KOD_\Admin_Panel\Admin_Panel\obj\Debug\Admin_Panel.FormMain.resources
